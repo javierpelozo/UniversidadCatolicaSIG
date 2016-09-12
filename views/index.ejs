@@ -1,443 +1,435 @@
 <!DOCTYPE html>
 <html lang="es">
-
   <% include partials/head %>
-
   <body>
     <a class="volverArriba" href="#" data-toggle="tooltip" data-placement="top" title="Volver arriba"></a>
-
-  <% include partials/navbar %>
-
-  <section id="slider">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="areaSlider">
-          <div id="slides">
-            <ul class="slides-container">
-              <li>
-                <img src="images/slider/slider-01.jpg" alt="img">
-                <div class="areaSliderCenter">
-                  <h2>Bienvenidos</h2>
-                  <p>Universidad Católica "Nuestra Señora de la Asunción"<br>Unidad Pedagógica San Ignacio Misiones</p>
-                  <a class="botonSlider" href="#sobreNosotros">¿Quiénes somos?</a>
-                </div>
-              </li>
-              <li>
-                <img src="images/slider/slider-02.jpg" alt="img">
-                <div class="areaSliderCenter areaSliderRight">
-                  <h2>Tu futuro depende de la educación que recibís</h2>
-                  <p>Elegir la carrera universitaria adecuada es importante porque dependerá de esa elección la calidad de profesional que será el individuo.<br>La elección de una carrera universitaria es una de las decisiones más importante en la vida de un estudiante. Determinar qué carrera es adecuada es una decisión difícil y personal, en la que nadie puede ayudarte a decidir.</p>
-                  <a class="botonSlider" href="#sobreNosotros">¿Quiénes somos?</a>
-                </div>
-              </li>
-              <li>
-                <img src="images/slider/slider-03.jpg" alt="img">
-                <div class="areaSliderCenter">
-                  <h2>BUSCÁ LO MEJOR PARA VOS</h2>
-                  <p>Nosotros te ofrecemos la mejor educación, con profesores de alto nivel.<br>¿Por qué?<br> ¡Porque la educación te da poder!</p>
-                  <a class="botonSlider" href="#sobreNosotros">¿Quiénes somos?</a>
-                </div>
-              </li>
-            </ul>
-            <nav class="slides-navigation">
-              <a href="#" class="next"></a>
-              <a href="#" class="prev"></a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="sobreNosotros">
-    <div class="container">
+    <% include partials/navbar %>
+    <section id="slider">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="seccionSobreNosotros wow fadeInLeft">
-            <h2 class="titulo">Unidad pedagógica san ignacio guazú - misiones</h2>
-            <p>La Universidad Católica “Nuestra Señora de la Asunción”, servicio y contribución de la Iglesia, es una institución educativa, sin fines de lucro, creada por la Conferencia Episcopal Paraguaya y erigida por la Santa Sede, que tiene por finalidad consagrarse sin reserva a la causa de la Verdad, sirviendo a la dignidad del hombre y a la causa de la Iglesia.</p>
-            <p>En la Adquisición de conocimientos útiles, La Universidad Católica se distingue por su libre búsqueda de toda la Verdad acerca de la naturaleza del hombre y de Dios. La Universidad Católica, por el encuentro que establece la riqueza del mensaje salvífico del Evangelio y la pluralidad e infinidad de campos del saber, permite a la iglesia establecer un diálogo con todos los hombres  de cualquier cultura. (Ex Corde Ecclesiae Nro.4.6).</p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="seccionNoticias wow fadeInRight">
-            <ul class="nav nav-tabs noticiasBorder" id="myTab2">
-              <li class="active"><a href="#news" data-toggle="tab">Recientes</a></li>
-              <li><a href="#events" data-toggle="tab">Eventos</a></li>
-            </ul>
-
-            <% include partials/modal %>
-
-            <div class="tab-content">
-              <div class="tab-pane fade in active" id="news">
-                <ul class="seccionNuevasNoticias">
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="noticiasImg" href="#alertModal" data-toggle="modal">
-                          <img class="media-object" src="images/eventos/1.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <a href="#alertModal" data-toggle="modal">VIII Asamblea de los 30 Pueblos</a>
-                        <span class="fechaNoticia">20/May/16</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="noticiasImg" href="#alertModal" data-toggle="modal">
-                          <img class="media-object" src="images/eventos/2.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <a href="#alertModal" data-toggle="modal">Elecciones Estudiantiles</a>
-                        <span class="fechaNoticia">18/May/16</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="noticiasImg" href="#alertModal" data-toggle="modal">
-                          <img class="media-object" src="images/eventos/3.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <a href="#alertModal" data-toggle="modal">Conferencia de Prensa (Techauka)</a>
-                        <span class="fechaNoticia">17/May/16</span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <a class="verTodos" href="#alertModal" data-toggle="modal">Ver todas las noticias</a>
-              </div>
-              <div class="tab-pane fade" id="events">
-                <ul class="seccionNuevasNoticias">
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="noticiasImg" href="#alertModal" data-toggle="modal">
-                          <img class="media-object" src="images/eventos/7.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <a href="#alertModal" data-toggle="modal">Festejo Día del Maestro 2016</a>
-                        <span class="fechaNoticia">29/Abr/16</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="noticiasImg" href="#alertModal" data-toggle="modal">
-                          <img class="media-object" src="images/eventos/8.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <a href="#alertModal" data-toggle="modal">Donación de Libros</a>
-                        <span class="fechaNoticia">18/Nov/15</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="noticiasImg" href="#alertModal" data-toggle="modal">
-                          <img class="media-object" src="images/eventos/9.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#alertModal" data-toggle="modal">Acto de Graduación 2015</a>
-                       <span class="fechaNoticia">14/Nov/15</span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <a class="verTodos" href="#alertModal" data-toggle="modal">Ver todos los eventos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
-    <section id="porqueElegir">
-      <div class="row">
-        <div class="col-lg-12 col-sm-12">
-          <div class="porqueElegir-top">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 col-md-12">
-                  <div class="tituloPorqueElegir">
-                    <h2 class="titulo2PorqueElegir">¿Por qué elegirnos?</h2>
-                    <span></span>
+        <div class="col-lg-12 col-md-12">
+          <div class="areaSlider">
+            <div id="slides">
+              <ul class="slides-container">
+                <li>
+                  <img src="images/slider/slider-01.jpg" alt="img">
+                  <div class="areaSliderCenter">
+                    <h2>Bienvenidos</h2>
+                    <p>Universidad Católica "Nuestra Señora de la Asunción"<br>Unidad Pedagógica San Ignacio Misiones</p>
+                    <a class="botonSlider" href="#sobreNosotros">¿Quiénes somos?</a>
                   </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                  <div class="descPorqueElegir wow fadeInUp">
-                    <div class="iconPorqueElegir">
-                      <span class="fa fa-desktop"></span>
-                    </div>
-                    <h3>Tecnología</h3>
-                    <p>Somos una universidad de jóvenes para jóvenes, con una visión global que busca dar opciones a través de mejores planes de estudio de las licenciaturas e Ingeniería.</p>
+                </li>
+                <li>
+                  <img src="images/slider/slider-02.jpg" alt="img">
+                  <div class="areaSliderCenter areaSliderRight">
+                    <h2>Tu futuro depende de la educación que recibís</h2>
+                    <p>Elegir la carrera universitaria adecuada es importante porque dependerá de esa elección la calidad de profesional que será el individuo.<br>La elección de una carrera universitaria es una de las decisiones más importante en la vida de un estudiante. Determinar qué carrera es adecuada es una decisión difícil y personal, en la que nadie puede ayudarte a decidir.</p>
+                    <a class="botonSlider" href="#sobreNosotros">¿Quiénes somos?</a>
                   </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                  <div class="descPorqueElegir wow fadeInUp">
-                    <div class="iconPorqueElegir">
-                      <span class="fa fa-users"></span>
-                    </div>
-                    <h3>Profesores Capacitados</h3>
-                    <p>Disponemos del mejor sistema de vinculación profesional. El sistema de tutoría orienta, motiva y ayuda a construir la mejor versión profesional de cada estudiante.</p>
+                </li>
+                <li>
+                  <img src="images/slider/slider-03.jpg" alt="img">
+                  <div class="areaSliderCenter">
+                    <h2>BUSCÁ LO MEJOR PARA VOS</h2>
+                    <p>Nosotros te ofrecemos la mejor educación, con profesores de alto nivel.<br>¿Por qué?<br> ¡Porque la educación te da poder!</p>
+                    <a class="botonSlider" href="#sobreNosotros">¿Quiénes somos?</a>
                   </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                  <div class="descPorqueElegir wow fadeInUp">
-                    <div class="iconPorqueElegir">
-                      <span class="fa fa-flask"></span>
-                    </div>
-                    <h3>Sala de máquinas</h3>
-                    <p>Para el desarrollo de habilidades profesionales contamos con laboratorios de: cómputo.</p>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                  <div class="descPorqueElegir wow fadeInUp">
-                    <div class="iconPorqueElegir">
-                      <span class="fa fa-support"></span>
-                    </div>
-                    <h3>Biblioteca</h3>
-                    <p>Disponemos de recintos para la recreación y la cultura: biblioteca, galería, auditorios.</p>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <nav class="slides-navigation">
+                <a href="#" class="next"></a>
+                <a href="#" class="prev"></a>
+              </nav>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="nuestrasCarreras">
+    <section id="sobreNosotros">
       <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="seccionSobreNosotros wow fadeInLeft">
+              <h2 class="titulo">Unidad pedagógica san ignacio guazú - misiones</h2>
+              <p>La Universidad Católica “Nuestra Señora de la Asunción”, servicio y contribución de la Iglesia, es una institución educativa, sin fines de lucro, creada por la Conferencia Episcopal Paraguaya y erigida por la Santa Sede, que tiene por finalidad consagrarse sin reserva a la causa de la Verdad, sirviendo a la dignidad del hombre y a la causa de la Iglesia.</p>
+              <p>En la Adquisición de conocimientos útiles, La Universidad Católica se distingue por su libre búsqueda de toda la Verdad acerca de la naturaleza del hombre y de Dios. La Universidad Católica, por el encuentro que establece la riqueza del mensaje salvífico del Evangelio y la pluralidad e infinidad de campos del saber, permite a la iglesia establecer un diálogo con todos los hombres  de cualquier cultura. (Ex Corde Ecclesiae Nro.4.6).</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="seccionNoticias wow fadeInRight">
+              <ul class="nav nav-tabs noticiasBorder" id="myTab2">
+                <li class="active"><a href="#news" data-toggle="tab">Recientes</a></li>
+                <li><a href="#events" data-toggle="tab">Eventos</a></li>
+              </ul>
+              <% include partials/modal %>
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="news">
+                  <% include partials/modal %>
+                  <div class="tab-content">
+                    <div class="tab-pane fade in active" id="nuevasNoticias">
+                      <ul class="seccionNuevasNoticias">
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="noticiasImg" href="#alertModal" data-toggle="modal">
+                                <img class="media-object" src="images/eventos/1.jpg" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                              <a href="#alertModal" data-toggle="modal">VIII Asamblea de los 30 Pueblos</a>
+                              <span class="fechaNoticia">20/May/16</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="noticiasImg" href="#alertModal" data-toggle="modal">
+                                <img class="media-object" src="images/eventos/2.jpg" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                              <a href="#alertModal" data-toggle="modal">Elecciones Estudiantiles</a>
+                              <span class="fechaNoticia">18/May/16</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="noticiasImg" href="#alertModal" data-toggle="modal">
+                                <img class="media-object" src="images/eventos/3.jpg" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                              <a href="#alertModal" data-toggle="modal">Conferencia de Prensa (Techauka)</a>
+                              <span class="fechaNoticia">17/May/16</span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <a class="verTodos" href="#alertModal" data-toggle="modal">Ver todas las noticias</a>
+                    </div>
+                    <div class="tab-pane fade" id="events">
+                      <ul class="seccionNuevasNoticias">
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="noticiasImg" href="#alertModal" data-toggle="modal">
+                                <img class="media-object" src="images/eventos/7.jpg" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                              <a href="#alertModal" data-toggle="modal">Festejo Día del Maestro 2016</a>
+                              <span class="fechaNoticia">29/Abr/16</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="noticiasImg" href="#alertModal" data-toggle="modal">
+                                <img class="media-object" src="images/eventos/8.jpg" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                              <a href="#alertModal" data-toggle="modal">Donación de Libros</a>
+                              <span class="fechaNoticia">18/Nov/15</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="noticiasImg" href="#alertModal" data-toggle="modal">
+                                <img class="media-object" src="images/eventos/9.jpg" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                              <a href="#alertModal" data-toggle="modal">Acto de Graduación 2015</a>
+                              <span class="fechaNoticia">14/Nov/15</span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <a class="verTodos" href="#alertModal" data-toggle="modal">Ver todos los eventos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="porqueElegir">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <div class="porqueElegir-top">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                      <div class="tituloPorqueElegir">
+                        <h2 class="titulo2PorqueElegir">¿Por qué elegirnos?</h2>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                      <div class="descPorqueElegir wow fadeInUp">
+                        <div class="iconPorqueElegir">
+                          <span class="fa fa-desktop"></span>
+                        </div>
+                        <h3>Tecnología</h3>
+                        <p>Somos una universidad de jóvenes para jóvenes, con una visión global que busca dar opciones a través de mejores planes de estudio de las licenciaturas e Ingeniería.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                      <div class="descPorqueElegir wow fadeInUp">
+                        <div class="iconPorqueElegir">
+                          <span class="fa fa-users"></span>
+                        </div>
+                        <h3>Profesores Capacitados</h3>
+                        <p>Disponemos del mejor sistema de vinculación profesional. El sistema de tutoría orienta, motiva y ayuda a construir la mejor versión profesional de cada estudiante.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                      <div class="descPorqueElegir wow fadeInUp">
+                        <div class="iconPorqueElegir">
+                          <span class="fa fa-flask"></span>
+                        </div>
+                        <h3>Sala de máquinas</h3>
+                        <p>Para el desarrollo de habilidades profesionales contamos con laboratorios de: cómputo.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                      <div class="descPorqueElegir wow fadeInUp">
+                        <div class="iconPorqueElegir">
+                          <span class="fa fa-support"></span>
+                        </div>
+                        <h3>Biblioteca</h3>
+                        <p>Disponemos de recintos para la recreación y la cultura: biblioteca, galería, auditorios.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="nuestrasCarreras">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="tituloPorqueElegir">
+                  <h2 class="titulo2PorqueElegir">Nuestras carreras</h2>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="nuestrasCarreras-lista">
+                  <ul class="navCarreras">
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/ingenieria.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Ingeniería Informática</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/administracion.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Administración de Empresas</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/contabilidad.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Ciencias Contables</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/comercio.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Comercio Internacional</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/derecho.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Derecho</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/marketing.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Marketing</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/enfermeria.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Enfermería</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/nutricion.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Nutrición</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="descripcionCarrera">
+                        <div class="desCarreraImg">
+                          <img src="images/carreras/trabajo-social.jpg" />
+                          <div class="card">
+                            <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
+                          </div>
+                        </div>
+                        <div class="contenidoDesc">
+                          <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Trabajo Social</a></h3>
+                          <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div class="row">
           <div class="col-lg-12 col-md-12">
             <div class="tituloPorqueElegir">
-              <h2 class="titulo2PorqueElegir">Nuestras carreras</h2>
+              <h2 class="titulo2PorqueElegir">Nuestra Historia</h2>
               <span></span>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="nuestrasCarreras-lista">
-              <ul class="navCarreras">
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/ingenieria.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Ingeniería Informática</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
+        <section id="nuestraHistoria">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-8 col-sm-8">
+                <div class="descripcionContenido">
+                  <div class="tituloBarCyan">
+                    <h2>Concebida por la Jerarquía Católica</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 col-12 col-sm-12">
+                      <p>La <b>Universidad Católica “Nuestra Señora de la Asunción”</b> fue concebida por la Jerarquía Católica del Paraguay como una entidad de formación superior, a finales de la década del '50. Los trabajos previos fueron dispuestos por el entonces arzobispo de Asunción y presidente de la Conferencia Episcopal Paraguaya (CEP), Mons. Aníbal Mena Porta.<br><br></p>
+                      <p>En septiembre de 1959, en asamblea plenaria, la CEP reafirmó su derecho de fundar escuelas superiores de educación y el reconocimiento de este derecho por parte de la Constitución Nacional de 1940, vigente en ese tiempo.</p>
                     </div>
                   </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/administracion.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Administración de Empresas</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
+                  <div class="tituloBarCyan">
+                    <h2>Decreto de Fundación</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 col-12 col-sm-12">
+                      <p>El decreto de fundación <i>(firmado por Mons. Mena Porta el 13 de febrero de 1960)</i> expresa que la Universidad Católica se denominará “Nuestra Señora de la Asunción” y estará bajo el alto patrocinio de la CEP y la alta dirección del arzobispo de Asunción en calidad de gran canciller. Dispone, asimismo, que deben honrarse como patronos de la misma al Sagrado Corazón de Jesús y a Nuestra Señora de la Asunción.<br><br></p>
+                      <p>El 22 de marzo de 1960, el Gobierno Nacional mediante el Decreto Nº. 9350 autorizó el funcionamiento de la Universidad Católica “Nuestra Señora de la Asunción”. En sus considerandos, expresaba que "la creación de una nueva Universidad representa una efectiva contribución a la elaboración cultural del país, a la formación intelectual, moral y técnica de la juventud y al desarrollo y conservación del patrimonio científico nacional".</p>
                     </div>
                   </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/contabilidad.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Ciencias Contables</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
+                  <div class="tituloBarCyan">
+                    <h2>Estatutos y Reformas</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 col-12 col-sm-12">
+                      <p>El 24 de junio de 1960, por Decreto Nº. 11.079, el Gobierno aprobó los estatutos sociales de la Universidad y reconoció su personería jurídica. El 6 de setiembre de 1960, la Honorable Cámara de Representantes de la Nación sancionó la Ley Nº. 663 «por la cual se facultaba a la Universidad Católica “Nuestra Señora de la Asunción” a otorgar títulos y diplomas» a través del Ministerio de Educación y Culto.</p>
+                      <p>El 18 de abril de 1996, el presidente de la República del Paraguay por Decreto Nº. 13.059 aprueba las modificaciones introducidas en los estatutos, resueltas en Asamblea General Extraordinaria el13 de julio de 1995. La Fiscalía General del Estado y la Asesoría Jurídica del Ministerio del Interior dieron sus dictámenes favorables al respecto.</p>
+                      <p>El 18 de enero de 2008, una nueva reforma de los Estatutos es aprobada por la Presidencia de la República por Decreto Nº. 11.739, tomando como base los documentos que fueron aprobados por la CEP y protocolizados ante escribano público conforme se acredita en la escritura Nº 30 del 14 de noviembre de 2007.</p>
+                      <p>La 200a. Asamblea Plenaria Extraordinaria de la Conferencia Episcopal Paraguaya, reunidad en 2014, aprobó modificaciones al Estatuto de la Universidad, la que fueron ratificadas por la Sede Apostólica y el Gobierno Nacional.</p>
                     </div>
                   </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/comercio.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Comercio Internacional</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
+                  <div class="tituloBarCyan">
+                    <h2>Rectores</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 col-12 col-sm-12">
+                      <p>Mons. Juan Moleón Andreu (1960-1970)<br><br></p>
+                      <p>Mons. Oscar Usher (1970-1980, 1986-1996)<br><br></p>
+                      <p>Dr. Rafael Eladio Velázquez (1981-1985)<br><br></p>
+                      <p>Dr. Antonio Tellechea Solís (1997-2007)<br><br></p>
+                      <p>Mons. Michel Gibaud (2008-2014)<br><br></p>
                     </div>
                   </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/derecho.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Derecho</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/marketing.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Marketing</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/enfermeria.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Enfermería</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/nutricion.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Nutrición</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="descripcionCarrera">
-                    <div class="desCarreraImg">
-                      <img src="images/carreras/trabajo-social.jpg" />
-                      <div class="card">
-                        <a href="#alertModal" data-toggle="modal" class="carreras-info">Más información</a>
-                      </div>
-                    </div>
-                    <div class="contenidoDesc">
-                      <h3 class="nombreCarrera"><a href="#alertModal" data-toggle="modal">Trabajo Social</a></h3>
-                      <p class="duracionCarrera"><span>Duración:</span> 5 años</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="tituloPorqueElegir">
-          <h2 class="titulo2PorqueElegir">Nuestra Historia</h2>
-          <span></span>
-        </div>
-      </div>
-    </div>
-    <section id="nuestraHistoria">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-8 col-sm-8">
-            <div class="descripcionContenido">
-              <div class="tituloBarCyan">
-                <h2>Concebida por la Jerarquía Católica</h2>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-12 col-sm-12">
-                  <p>La <b>Universidad Católica “Nuestra Señora de la Asunción”</b> fue concebida por la Jerarquía Católica del Paraguay como una entidad de formación superior, a finales de la década del '50. Los trabajos previos fueron dispuestos por el entonces arzobispo de Asunción y presidente de la Conferencia Episcopal Paraguaya (CEP), Mons. Aníbal Mena Porta.<br><br></p>
-                  <p>En septiembre de 1959, en asamblea plenaria, la CEP reafirmó su derecho de fundar escuelas superiores de educación y el reconocimiento de este derecho por parte de la Constitución Nacional de 1940, vigente en ese tiempo.</p>
-                </div>
-              </div>
-              <div class="tituloBarCyan">
-                <h2>Decreto de Fundación</h2>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-12 col-sm-12">
-                  <p>El decreto de fundación <i>(firmado por Mons. Mena Porta el 13 de febrero de 1960)</i> expresa que la Universidad Católica se denominará “Nuestra Señora de la Asunción” y estará bajo el alto patrocinio de la CEP y la alta dirección del arzobispo de Asunción en calidad de gran canciller. Dispone, asimismo, que deben honrarse como patronos de la misma al Sagrado Corazón de Jesús y a Nuestra Señora de la Asunción.<br><br></p>
-                  <p>El 22 de marzo de 1960, el Gobierno Nacional mediante el Decreto Nº. 9350 autorizó el funcionamiento de la Universidad Católica “Nuestra Señora de la Asunción”. En sus considerandos, expresaba que "la creación de una nueva Universidad representa una efectiva contribución a la elaboración cultural del país, a la formación intelectual, moral y técnica de la juventud y al desarrollo y conservación del patrimonio científico nacional".</p>
-                </div>
-              </div>
-              <div class="tituloBarCyan">
-                <h2>Estatutos y Reformas</h2>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-12 col-sm-12">
-                  <p>El 24 de junio de 1960, por Decreto Nº. 11.079, el Gobierno aprobó los estatutos sociales de la Universidad y reconoció su personería jurídica. El 6 de setiembre de 1960, la Honorable Cámara de Representantes de la Nación sancionó la Ley Nº. 663 «por la cual se facultaba a la Universidad Católica “Nuestra Señora de la Asunción” a otorgar títulos y diplomas» a través del Ministerio de Educación y Culto.</p>
-                  <p>El 18 de abril de 1996, el presidente de la República del Paraguay por Decreto Nº. 13.059 aprueba las modificaciones introducidas en los estatutos, resueltas en Asamblea General Extraordinaria el13 de julio de 1995. La Fiscalía General del Estado y la Asesoría Jurídica del Ministerio del Interior dieron sus dictámenes favorables al respecto.</p>
-                  <p>El 18 de enero de 2008, una nueva reforma de los Estatutos es aprobada por la Presidencia de la República por Decreto Nº. 11.739, tomando como base los documentos que fueron aprobados por la CEP y protocolizados ante escribano público conforme se acredita en la escritura Nº 30 del 14 de noviembre de 2007.</p>
-                  <p>La 200a. Asamblea Plenaria Extraordinaria de la Conferencia Episcopal Paraguaya, reunidad en 2014, aprobó modificaciones al Estatuto de la Universidad, la que fueron ratificadas por la Sede Apostólica y el Gobierno Nacional.</p>
-                </div>
-              </div>
-              <div class="tituloBarCyan">
-                <h2>Rectores</h2>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-12 col-sm-12">
-                  <p>Mons. Juan Moleón Andreu (1960-1970)<br><br></p>
-                  <p>Mons. Oscar Usher (1970-1980, 1986-1996)<br><br></p>
-                  <p>Dr. Rafael Eladio Velázquez (1981-1985)<br><br></p>
-                  <p>Dr. Antonio Tellechea Solís (1997-2007)<br><br></p>
-                  <p>Mons. Michel Gibaud (2008-2014)<br><br></p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <% include partials/footer %>
-
-    <iframe id="megustaFacebook" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadCatolicaSubCampusSanIgnacioGuazu%2F&width=450&layout=standard&action=like&show_faces=true&share=true&height=80&appId" width="100%" height="50" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-
-    <% include partials/footerScripts %>
-
-  </body>
-</html>
+        </section>
+        <% include partials/footer %>
+        <% include partials/footerScripts %>
+      </body>
+    </html>

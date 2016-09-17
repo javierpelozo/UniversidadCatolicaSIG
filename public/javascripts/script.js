@@ -59,7 +59,7 @@ jQuery(function($){
       barColor: "#efefef",
       backgroundColor: "#223359",
       percentage: true,
-      barHeight: 5,
+      barHeight: 4,
       minimumTime: 200,
       fadeOutTime: 1000
     });

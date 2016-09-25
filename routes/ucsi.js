@@ -37,9 +37,4 @@ module.exports = function(app) {
   app.get('/galeria', function(req, res) {
     res.render('ucsi/galeria', { title: 'Galería' });
   });
-
-  app.get('/notfound', function(req, res) {
-    res.render('ucsi/notfound', { title: 'Error' });
-  })
-
 };

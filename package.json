@@ -19,5 +19,8 @@
     "morgan": "*",
     "ejs": "*",
     "serve-favicon": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }

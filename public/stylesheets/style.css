@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-    font-family: "Times Pro Roman", serif;
+    font-family: 'Lato', serif;
     overflow-x: hidden !important;
 }
 
@@ -112,6 +112,7 @@ img {
 .navbar-default .navbar-brand {
     color: rgb(255, 255, 255);
     font-size: 25px;
+    font-family: "Times Pro Roman";
 /*    font-weight: bold; */
     margin-top: 15px;
 }
@@ -291,15 +292,15 @@ img {
 #sobreNosotros {
     display: inline;
     float: left;
-    padding: 100px 0px 0px 0px;
+    padding: 100px;
     width: 100%;
 }
 
 .seccionSobreNosotros {
-    padding-top: 20px;
+    padding: 100px;
     display: inline;
     float: left;
-    padding-right: 30px;
+    text-align: center;
     width: 100%;
 }
 
@@ -750,6 +751,7 @@ img {
     float: left;
     display: inline;
     width: 100%;
+    font-size: 15px;
 }
 
 .descripcionContenido .descripcionCarrera {

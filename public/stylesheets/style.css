@@ -291,13 +291,12 @@ img {
 
 #sobreNosotros {
     display: inline;
-    float: left;
     padding: 100px;
     width: 100%;
 }
 
 .seccionSobreNosotros {
-    padding: 100px;
+    padding-top: 100px;
     display: inline;
     float: left;
     text-align: center;

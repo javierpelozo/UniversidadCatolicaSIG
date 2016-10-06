@@ -1774,24 +1774,15 @@ img {
   background-color: #00AEF0;
   color: #ffffff;
 }
-.footer_widget_nav li a {
-  color: #00AEF0;
-}
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
   color: #00AEF0 !important;
 }
 .seccionEventosSidebar > h2 {
   background-color: #00AEF0;
 }
-.singlecourse_price {
-  color: #00AEF0;
-}
 .tablaMaterias thead{
   background-color: #00AEF0;
 }
-/*.related_course > h2 {
-  color: #00AEF0;
-}*/
 .seccionEventosSidebar > ul > li>a:hover,.seccionEventosSidebar > ul > li>a:focus{
   color: #00AEF0;
 }

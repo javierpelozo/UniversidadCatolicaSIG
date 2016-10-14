@@ -1,4 +1,4 @@
-
+:school_satchel:
 # Universidad Católica "Nuestra Señora de la Asunción"
 > ## Unidad Pedagógica San Ignacio Guazú
 ![Photo](public/images/slider/slider-01.jpg "UCSI")

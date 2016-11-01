@@ -1,26 +1,27 @@
 {
-    "name": "ucsi",
-    "version": "1.0.0",
-    "description": "Página Web - UCSI",
-    "private": true,
-    "scripts": {
-        "start": "node ./bin/www"
-    },
-    "author": "Javier Pelozo",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/javierpelozo/ucsi"
-    },
-    "dependencies": {
-        "body-parser": "*",
-        "cookie-parser": "*",
-        "debug": "*",
-        "express": "*",
-        "morgan": "*",
-        "ejs": "*",
-        "serve-favicon": "*"
-    },
-    "engines": {
-        "node": "0.10.x"
-    }
+  "name": "ucsi",
+  "version": "1.0.0",
+  "description": "Página Web - UCSI",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Javier Pelozo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javierpelozo/ucsi"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "ejs": "*",
+    "express": "*",
+    "morgan": "*",
+    "nodemailer": "^2.6.4",
+    "serve-favicon": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
 }
